@@ -1,13 +1,17 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import HomeScreen from "./src/screens/HomeScreen";
+import WelcomeScreen from "./src/screens/WelcomeScreen";
+import DryDockScreen from "./src/screens/DryDockScreen";
+import SpaceScreen from "./src/screens/SpaceScreen";
 
 const navigator = createStackNavigator(
   {
-    Home: HomeScreen,
+    Welcome: WelcomeScreen,
+    DryDock: DryDockScreen,
+    Space: SpaceScreen,
   },
   {
-    initialRouteName: "Home",
+    initialRouteName: "Welcome",
     defaultNavigationOptions: {
       title: "App",
     },
