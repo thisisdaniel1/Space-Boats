@@ -4,7 +4,7 @@ import { Text, View, StyleSheet, TouchableOpacity, Button, Image} from "react-na
 const WelcomeScreen = ({navigation}) => {
 
   return  <View>
-      <Text>Space Boats: Galactic Conquest</Text>
+      <Text>Space Boats: Galactic Arsenal</Text>
       <Image source={require("../../assets/favicon.png")}/>
       <Button
         title="Commission Your Ship!"
